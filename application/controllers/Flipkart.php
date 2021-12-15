@@ -11,10 +11,9 @@ class flipkart extends CI_Controller
         $this->load->view('fhome');
     }
 
-    public function register()
-    {
-        $this->load->view('fregister');
-    }
+    // public function register()
+    // {$this->load->view('fregister');
+    // }
 
     public function new($id = '')
     {
